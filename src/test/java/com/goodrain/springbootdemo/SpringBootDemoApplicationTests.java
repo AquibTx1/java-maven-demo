@@ -14,6 +14,7 @@ public class SpringBootDemoApplicationTests {
     }
     @Test
     public void context() {
-    }
+        driver.findElement(By.id("email").sendkeys("absbs@gmail.com")
+       }
 }
 
